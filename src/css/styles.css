@@ -1,0 +1,36 @@
+*{
+    font-family: 'Cairo', Arial, Helvetica, sans-serif;
+}
+/* reseteo de la caja de texto interesanto añadir siempre 
+por tema de compatibilidad entre navegadores*/
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Monda', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+ul li::marker{
+    content: none;
+}
+a{
+    color:#d65a31;
+    text-decoration: none;
+}
+
+.logo, .logo span{
+    font-family: 'Gugi', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+
+}
+
+.logo span{
+    color: #d65a31;
+}
+img{
+    max-width: 100%;
+}
